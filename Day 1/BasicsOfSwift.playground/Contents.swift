@@ -1,5 +1,3 @@
-import Cocoa
-
 var str = "Hello, playground"
 
 str = "Hey everyone !"
@@ -33,3 +31,10 @@ I am using multi-line string. \
 See you !
 """
 print(str2)
+
+// Another Type is Double. “Double” is short for “double-precision floating-point number".
+var pi = 3.141
+
+// As for booleans, they are much simpler: they just hold either true or false
+var amIAwesome = true
+
