@@ -37,4 +37,22 @@ var pi = 3.141
 
 // As for booleans, they are much simpler: they just hold either true or false
 var amIAwesome = true
+print(amIAwesome)
+
+
+// String Interpolation
+var score = 85
+print("The score is \(score)")
+var str3 = "The target for them is \(score + 1)"
+print(str3)
+
+// Constants in Swift using let
+let taylor = "swift"
+
+
+// Type inference in Swift : Swift is able to infer the type of something based on how you created it
+let album: String = "Believer"
+let year: Int = 1989
+let height: Double = 1.85
+let taylorRocks: Bool = true
 
